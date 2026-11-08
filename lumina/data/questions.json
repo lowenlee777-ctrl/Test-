@@ -1,0 +1,608 @@
+{
+  "dawnbloom": [
+    {
+      "id": "dawn-verdant-001",
+      "island": "dawnbloom",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What do plants need to grow?",
+      "choices": ["Sunlight, water, and air", "Candy and toys", "Rocks and sand", "Ice and snow"],
+      "answer": 0,
+      "explanation": "Plants need sunlight, water, air, and nutrients from soil to grow strong and healthy."
+    },
+    {
+      "id": "dawn-tempest-001",
+      "island": "dawnbloom",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "Which planet do we live on?",
+      "choices": ["Mars", "Venus", "Earth", "Jupiter"],
+      "answer": 2,
+      "explanation": "We live on Earth, the third planet from the Sun."
+    },
+    {
+      "id": "dawn-tempest-002",
+      "island": "dawnbloom",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the closest star to Earth?",
+      "choices": ["The Moon", "Mars", "The Sun", "Pluto"],
+      "answer": 2,
+      "explanation": "The Sun is a star and the closest one to Earth. It gives us light and warmth."
+    },
+    {
+      "id": "dawn-verdant-002",
+      "island": "dawnbloom",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "How many legs does a spider have?",
+      "choices": ["Four", "Six", "Eight", "Ten"],
+      "answer": 2,
+      "explanation": "Spiders have eight legs. That is what makes them arachnids, not insects."
+    },
+    {
+      "id": "dawn-verdant-003",
+      "island": "dawnbloom",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What do bees collect from flowers?",
+      "choices": ["Honey", "Nectar and pollen", "Water", "Leaves"],
+      "answer": 1,
+      "explanation": "Bees collect nectar and pollen from flowers. They use nectar to make honey back in the hive."
+    },
+    {
+      "id": "dawn-verdant-004",
+      "island": "dawnbloom",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What gas do humans need to breathe to survive?",
+      "choices": ["Carbon dioxide", "Nitrogen", "Oxygen", "Hydrogen"],
+      "answer": 2,
+      "explanation": "Humans breathe in oxygen. Our bodies use it to get energy from food."
+    },
+    {
+      "id": "dawn-tempest-003",
+      "island": "dawnbloom",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is water called when it freezes?",
+      "choices": ["Steam", "Ice", "Mist", "Snow"],
+      "answer": 1,
+      "explanation": "When water gets very cold and freezes, it becomes ice."
+    },
+    {
+      "id": "dawn-verdant-005",
+      "island": "dawnbloom",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "Which animal is known as the king of the jungle?",
+      "choices": ["Tiger", "Elephant", "Gorilla", "Lion"],
+      "answer": 3,
+      "explanation": "The lion is called the king of the jungle because of its strength and powerful roar."
+    },
+    {
+      "id": "dawn-verdant-006",
+      "island": "dawnbloom",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What part of your body helps you hear sounds?",
+      "choices": ["Eyes", "Nose", "Tongue", "Ears"],
+      "answer": 3,
+      "explanation": "Your ears collect sound waves and send signals to your brain so you can hear."
+    },
+    {
+      "id": "dawn-verdant-007",
+      "island": "dawnbloom",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What do caterpillars turn into?",
+      "choices": ["Spiders", "Butterflies or moths", "Beetles", "Worms"],
+      "answer": 1,
+      "explanation": "Caterpillars go through a process called metamorphosis and become butterflies or moths."
+    },
+    {
+      "id": "dawn-tempest-004",
+      "island": "dawnbloom",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the name of the force that pulls objects toward Earth?",
+      "choices": ["Friction", "Magnetism", "Gravity", "Wind"],
+      "answer": 2,
+      "explanation": "Gravity is the force that pulls everything toward Earth, which is why things fall when you drop them."
+    },
+    {
+      "id": "dawn-tempest-005",
+      "island": "dawnbloom",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "Which season comes after summer?",
+      "choices": ["Winter", "Spring", "Summer", "Fall"],
+      "answer": 3,
+      "explanation": "The four seasons in order are spring, summer, fall, and winter. Fall comes right after summer."
+    },
+    {
+      "id": "dawn-tempest-006",
+      "island": "dawnbloom",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What do we call water falling from clouds?",
+      "choices": ["Snow", "Rain", "Hail", "Fog"],
+      "answer": 1,
+      "explanation": "Rain is liquid water that falls from clouds when water droplets join together and become heavy."
+    },
+    {
+      "id": "dawn-verdant-008",
+      "island": "dawnbloom",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "Which animal lays eggs: a dog, a chicken, or a cat?",
+      "choices": ["A dog", "A cat", "A chicken", "A rabbit"],
+      "answer": 2,
+      "explanation": "Chickens lay eggs. Dogs, cats, and rabbits give birth to live babies instead."
+    },
+    {
+      "id": "dawn-verdant-009",
+      "island": "dawnbloom",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What is the largest land animal?",
+      "choices": ["Giraffe", "Hippo", "African elephant", "Rhino"],
+      "answer": 2,
+      "explanation": "The African elephant is the largest land animal on Earth. Adults can weigh over 6,000 kg."
+    },
+    {
+      "id": "dawn-verdant-010",
+      "island": "dawnbloom",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What do fish use to breathe underwater?",
+      "choices": ["Lungs", "Gills", "Skin", "Fins"],
+      "answer": 1,
+      "explanation": "Fish breathe through gills, which pull dissolved oxygen from the water."
+    },
+    {
+      "id": "dawn-tempest-007",
+      "island": "dawnbloom",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What gives Earth most of its light and heat?",
+      "choices": ["The Moon", "Fire", "The Stars", "The Sun"],
+      "answer": 3,
+      "explanation": "The Sun gives Earth almost all of its light and heat energy."
+    },
+    {
+      "id": "dawn-verdant-011",
+      "island": "dawnbloom",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What part of a plant absorbs water from the soil?",
+      "choices": ["Leaves", "Stem", "Roots", "Flowers"],
+      "answer": 2,
+      "explanation": "Roots grow underground and absorb water and nutrients from the soil for the plant."
+    },
+    {
+      "id": "dawn-verdant-012",
+      "island": "dawnbloom",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What sense do you use to smell flowers?",
+      "choices": ["Sight", "Touch", "Taste", "Smell"],
+      "answer": 3,
+      "explanation": "Your nose is the organ for the sense of smell. You smell flowers through your nose."
+    },
+    {
+      "id": "dawn-tempest-008",
+      "island": "dawnbloom",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What happens to a puddle of water when the Sun heats it for a long time?",
+      "choices": ["It freezes", "It evaporates", "It turns to mud", "It grows bigger"],
+      "answer": 1,
+      "explanation": "The Sun's heat turns the water into water vapor that rises into the air. This is called evaporation."
+    }
+  ],
+  "stormreach": [
+    {
+      "id": "storm-verdant-001",
+      "island": "stormreach",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What is the process called when plants make their own food using sunlight?",
+      "choices": ["Respiration", "Germination", "Photosynthesis", "Evaporation"],
+      "answer": 2,
+      "explanation": "Photosynthesis is how plants use sunlight, water, and carbon dioxide to make their own food (glucose)."
+    },
+    {
+      "id": "storm-tempest-001",
+      "island": "stormreach",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What are the three main states of matter?",
+      "choices": ["Hot, cold, and warm", "Solid, liquid, and gas", "Hard, soft, and wet", "Air, water, and earth"],
+      "answer": 1,
+      "explanation": "Matter exists as a solid (fixed shape), liquid (flows), or gas (fills its container)."
+    },
+    {
+      "id": "storm-tempest-002",
+      "island": "stormreach",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the largest planet in our solar system?",
+      "choices": ["Saturn", "Jupiter", "Neptune", "Earth"],
+      "answer": 1,
+      "explanation": "Jupiter is the largest planet. It is so big that over 1,300 Earths could fit inside it."
+    },
+    {
+      "id": "storm-verdant-002",
+      "island": "stormreach",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What is the main function of the human heart?",
+      "choices": ["To digest food", "To filter blood", "To pump blood around the body", "To help you breathe"],
+      "answer": 2,
+      "explanation": "The heart is a muscle that pumps blood through blood vessels to deliver oxygen and nutrients throughout the body."
+    },
+    {
+      "id": "storm-tempest-003",
+      "island": "stormreach",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the name of the process in which liquid water changes into water vapor?",
+      "choices": ["Condensation", "Precipitation", "Evaporation", "Sublimation"],
+      "answer": 2,
+      "explanation": "Evaporation is when liquid water is heated and turns into water vapor (gas)."
+    },
+    {
+      "id": "storm-tempest-004",
+      "island": "stormreach",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What force keeps planets in orbit around the Sun?",
+      "choices": ["Magnetism", "Friction", "Gravity", "Wind"],
+      "answer": 2,
+      "explanation": "Gravity from the Sun pulls the planets toward it, keeping them in their orbits."
+    },
+    {
+      "id": "storm-verdant-003",
+      "island": "stormreach",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What is the basic unit of life?",
+      "choices": ["The atom", "The cell", "The molecule", "The organ"],
+      "answer": 1,
+      "explanation": "The cell is the smallest unit that can carry out all basic life processes."
+    },
+    {
+      "id": "storm-verdant-004",
+      "island": "stormreach",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What do we call animals that eat both plants and meat?",
+      "choices": ["Herbivores", "Carnivores", "Omnivores", "Decomposers"],
+      "answer": 2,
+      "explanation": "Omnivores eat both plants and animals. Humans, bears, and pigs are examples of omnivores."
+    },
+    {
+      "id": "storm-tempest-005",
+      "island": "stormreach",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "Which layer of Earth is made of solid rock and includes the continents?",
+      "choices": ["The core", "The mantle", "The crust", "The magma"],
+      "answer": 2,
+      "explanation": "The crust is Earth's outermost solid layer. The continents and ocean floors are part of the crust."
+    },
+    {
+      "id": "storm-tempest-006",
+      "island": "stormreach",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the main source of energy for Earth's weather?",
+      "choices": ["The Moon", "Wind", "The Sun", "Ocean currents"],
+      "answer": 2,
+      "explanation": "The Sun heats Earth's surface unevenly, which drives the air movement and water cycle that create weather."
+    },
+    {
+      "id": "storm-tempest-007",
+      "island": "stormreach",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What happens when two opposite magnetic poles are brought close together?",
+      "choices": ["They repel each other", "They attract each other", "Nothing happens", "They both lose their magnetism"],
+      "answer": 1,
+      "explanation": "Opposite poles (north and south) attract each other. Same poles repel each other."
+    },
+    {
+      "id": "storm-tempest-008",
+      "island": "stormreach",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the name of the galaxy that contains our solar system?",
+      "choices": ["Andromeda", "The Milky Way", "The Big Dipper", "Orion"],
+      "answer": 1,
+      "explanation": "Our solar system is located in the Milky Way galaxy, which contains hundreds of billions of stars."
+    },
+    {
+      "id": "storm-tempest-009",
+      "island": "stormreach",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the difference between a renewable and a nonrenewable resource?",
+      "choices": ["Renewable resources are expensive; nonrenewable are cheap", "Renewable resources can naturally replenish; nonrenewable are limited and take very long to form", "Renewable resources come from plants; nonrenewable come from animals", "Renewable resources are solids; nonrenewable are liquids"],
+      "answer": 1,
+      "explanation": "Renewable resources like sunlight and wind naturally replenish. Nonrenewable resources like coal and oil take millions of years to form and can run out."
+    },
+    {
+      "id": "storm-verdant-005",
+      "island": "stormreach",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What organ pumps blood throughout the human body?",
+      "choices": ["The lungs", "The liver", "The brain", "The heart"],
+      "answer": 3,
+      "explanation": "The heart pumps blood through a network of arteries, veins, and capillaries to every part of the body."
+    },
+    {
+      "id": "storm-tempest-010",
+      "island": "stormreach",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the name of the process in which a solid changes directly into a gas?",
+      "choices": ["Evaporation", "Condensation", "Melting", "Sublimation"],
+      "answer": 3,
+      "explanation": "Sublimation is when a solid skips the liquid stage and turns straight into a gas. Dry ice does this."
+    },
+    {
+      "id": "storm-tempest-011",
+      "island": "stormreach",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "Why do we experience day and night on Earth?",
+      "choices": ["The Sun moves around Earth", "Earth rotates on its axis", "The Moon blocks sunlight", "Earth moves closer and farther from the Sun"],
+      "answer": 1,
+      "explanation": "Earth spins on its axis once every 24 hours. The side facing the Sun has day; the side facing away has night."
+    },
+    {
+      "id": "storm-verdant-006",
+      "island": "stormreach",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What is an ecosystem?",
+      "choices": ["A type of weather pattern", "A community of living organisms interacting with each other and their environment", "Only the plants found in one area", "A system for measuring weather"],
+      "answer": 1,
+      "explanation": "An ecosystem includes all the living things in an area and the nonliving parts of their environment, all interacting together."
+    },
+    {
+      "id": "storm-verdant-007",
+      "island": "stormreach",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What type of energy is stored in food?",
+      "choices": ["Kinetic energy", "Solar energy", "Chemical energy", "Nuclear energy"],
+      "answer": 2,
+      "explanation": "Food stores chemical energy in the bonds between its molecules. Your body releases that energy during digestion."
+    },
+    {
+      "id": "storm-verdant-008",
+      "island": "stormreach",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What are fossils?",
+      "choices": ["Types of rocks found underground", "Preserved remains or traces of ancient organisms", "Old tools made by early humans", "Mineral crystals found in caves"],
+      "answer": 1,
+      "explanation": "Fossils are the preserved remains or traces (like footprints) of organisms that lived long ago."
+    },
+    {
+      "id": "storm-verdant-009",
+      "island": "stormreach",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What is the function of the skeleton in the human body?",
+      "choices": ["It makes blood and stores energy only", "It controls your thoughts and feelings", "It supports the body, protects organs, and helps with movement", "It helps you breathe and digest food"],
+      "answer": 2,
+      "explanation": "The skeleton gives the body its shape, protects vital organs like the brain and heart, and works with muscles to allow movement."
+    }
+  ],
+  "crystalpeak": [
+    {
+      "id": "crystal-tempest-001",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the difference between a physical change and a chemical change?",
+      "choices": ["A physical change involves heat; a chemical change does not", "A physical change does not create a new substance; a chemical change does", "A physical change is permanent; a chemical change is reversible", "A physical change involves gases; a chemical change involves solids"],
+      "answer": 1,
+      "explanation": "In a physical change (like cutting or melting) no new substance is formed. In a chemical change (like burning) a new substance is produced."
+    },
+    {
+      "id": "crystal-tempest-002",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What are the three subatomic particles found in an atom?",
+      "choices": ["Quarks, bosons, and leptons", "Protons, neutrons, and electrons", "Atoms, ions, and molecules", "Positrons, neutrinos, and photons"],
+      "answer": 1,
+      "explanation": "Atoms are made of protons and neutrons in the nucleus, with electrons orbiting around it."
+    },
+    {
+      "id": "crystal-tempest-003",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the chemical formula for water?",
+      "choices": ["CO₂", "NaCl", "H₂O", "O₂"],
+      "answer": 2,
+      "explanation": "Water (H₂O) is made of two hydrogen atoms bonded to one oxygen atom."
+    },
+    {
+      "id": "crystal-tempest-004",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is Newton's First Law of Motion also known as?",
+      "choices": ["The Law of Gravity", "The Law of Acceleration", "The Law of Reaction", "The Law of Inertia"],
+      "answer": 3,
+      "explanation": "Newton's First Law (the Law of Inertia) states that an object stays at rest or in motion unless acted on by an outside force."
+    },
+    {
+      "id": "crystal-verdant-001",
+      "island": "crystalpeak",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What is the function of mitochondria in a cell?",
+      "choices": ["They control the cell's activities", "They build proteins for the cell", "They produce most of the usable energy (ATP) for the cell", "They protect the cell from viruses"],
+      "answer": 2,
+      "explanation": "Mitochondria are called the powerhouse of the cell because they convert nutrients into ATP, the energy currency cells use."
+    },
+    {
+      "id": "crystal-verdant-002",
+      "island": "crystalpeak",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What is the difference between mitosis and meiosis?",
+      "choices": ["Mitosis happens in animals; meiosis in plants", "Mitosis produces four cells; meiosis produces two cells", "Mitosis produces two genetically similar cells; meiosis produces four genetically different sex cells", "Mitosis is in the nucleus; meiosis is in the cytoplasm"],
+      "answer": 2,
+      "explanation": "Mitosis divides a cell into two identical daughter cells for growth and repair. Meiosis produces four genetically unique sex cells (sperm or eggs) for reproduction."
+    },
+    {
+      "id": "crystal-tempest-005",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the pH of a neutral solution at room temperature?",
+      "choices": ["0", "7", "14", "10"],
+      "answer": 1,
+      "explanation": "The pH scale runs from 0 (most acidic) to 14 (most basic). Pure water is neutral at pH 7."
+    },
+    {
+      "id": "crystal-tempest-006",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What type of energy does a moving object possess?",
+      "choices": ["Potential energy", "Kinetic energy", "Chemical energy", "Thermal energy"],
+      "answer": 1,
+      "explanation": "Kinetic energy is the energy of motion. Any object that is moving has kinetic energy."
+    },
+    {
+      "id": "crystal-verdant-003",
+      "island": "crystalpeak",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What is the role of DNA in living organisms?",
+      "choices": ["DNA produces energy for the cell", "DNA filters waste out of the bloodstream", "DNA stores genetic instructions used for growth, development, and cell functions", "DNA carries oxygen to cells"],
+      "answer": 2,
+      "explanation": "DNA (deoxyribonucleic acid) contains the genetic code that instructs cells how to build proteins and carry out life processes."
+    },
+    {
+      "id": "crystal-tempest-007",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What causes Earth's seasons?",
+      "choices": ["Earth's distance from the Sun", "The Moon's gravitational pull", "Earth's axial tilt as it revolves around the Sun", "The Sun's changing brightness"],
+      "answer": 2,
+      "explanation": "Earth is tilted on its axis at about 23.5°. As Earth orbits the Sun, different hemispheres lean toward or away from the Sun, causing seasons."
+    },
+    {
+      "id": "crystal-tempest-008",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the difference between mass and weight?",
+      "choices": ["Mass measures size; weight measures color", "Mass measures volume; weight measures density", "Mass changes with gravity; weight does not", "Mass measures the amount of matter; weight measures gravitational force"],
+      "answer": 3,
+      "explanation": "Mass is the amount of matter in an object and never changes. Weight depends on the gravitational force acting on that mass, so it can change on different planets."
+    },
+    {
+      "id": "crystal-tempest-009",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What happens to the particles of a substance when its temperature increases?",
+      "choices": ["They slow down and move closer together", "They disappear and reform as a gas", "They generally move faster and have greater average kinetic energy", "They change their chemical structure"],
+      "answer": 2,
+      "explanation": "Temperature is a measure of average kinetic energy. As temperature rises, particles move faster and collide more often."
+    },
+    {
+      "id": "crystal-tempest-010",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the name of the boundary between Earth's crust and mantle?",
+      "choices": ["The lithosphere boundary", "The asthenosphere layer", "The Gutenberg discontinuity", "The Mohorovičić discontinuity (Moho)"],
+      "answer": 3,
+      "explanation": "The Mohorovičić discontinuity (Moho) is the boundary where seismic wave speeds change, marking the base of the crust."
+    },
+    {
+      "id": "crystal-verdant-004",
+      "island": "crystalpeak",
+      "element": "verdant",
+      "type": "multiple",
+      "question": "What is natural selection?",
+      "choices": ["The way humans breed animals for desired traits", "The process by which inherited traits that improve survival or reproduction become more common over generations", "The random mutation of genes over time", "The selection of food sources by animals in the wild"],
+      "answer": 1,
+      "explanation": "Natural selection is a mechanism of evolution: individuals with traits better suited to their environment survive and reproduce more, passing those traits on."
+    },
+    {
+      "id": "crystal-tempest-011",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the difference between an independent and dependent variable in an experiment?",
+      "choices": ["Both variables are changed during the experiment", "The independent variable is measured; the dependent variable is changed", "The independent variable is kept the same; the dependent variable is changed", "The independent variable is changed; the dependent variable is measured"],
+      "answer": 3,
+      "explanation": "The independent variable is what the experimenter changes on purpose. The dependent variable is what is measured to see the effect."
+    },
+    {
+      "id": "crystal-tempest-012",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "Why does the Moon appear to change shape throughout the month?",
+      "choices": ["The Moon physically shrinks and grows each month", "Clouds block part of the Moon each night", "We see different portions of the Moon's sunlit half as it orbits Earth", "The Moon rotates faster than Earth causing different views"],
+      "answer": 2,
+      "explanation": "The Moon is always half-lit by the Sun. As it orbits Earth, we see different amounts of that lit half, creating the phases of the Moon."
+    },
+    {
+      "id": "crystal-tempest-013",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the law of conservation of mass?",
+      "choices": ["Energy is neither created nor destroyed in any reaction", "Mass is neither created nor destroyed in a closed system during a chemical reaction", "The total volume of reactants equals the volume of products", "Chemical reactions always release energy into the environment"],
+      "answer": 1,
+      "explanation": "The law of conservation of mass states that the total mass of reactants equals the total mass of products in a chemical reaction."
+    },
+    {
+      "id": "crystal-tempest-014",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What happens to the frequency of a sound wave when its pitch increases?",
+      "choices": ["The frequency decreases", "The frequency increases", "The frequency stays the same", "The frequency becomes random"],
+      "answer": 1,
+      "explanation": "Pitch is determined by frequency. A higher pitch means the sound wave is vibrating more times per second, so frequency increases."
+    },
+    {
+      "id": "crystal-tempest-015",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the difference between an element and a compound?",
+      "choices": ["An element is a liquid; a compound is a solid", "An element is natural; a compound is man-made", "An element contains one type of atom; a compound contains two or more elements chemically bonded", "An element has fewer atoms than a compound"],
+      "answer": 2,
+      "explanation": "An element (like gold or oxygen) is made of only one kind of atom. A compound (like water or salt) is made of two or more elements chemically bonded together."
+    },
+    {
+      "id": "crystal-tempest-016",
+      "island": "crystalpeak",
+      "element": "tempest",
+      "type": "multiple",
+      "question": "What is the greenhouse effect, and how does it affect Earth's temperature?",
+      "choices": ["Plants in greenhouses produce extra heat that warms the planet", "The Sun's light passes through glass-like clouds and heats the ground", "Atmospheric gases absorb and re-emit infrared radiation, warming Earth's surface and lower atmosphere", "Ozone in the atmosphere blocks cold air from entering from space"],
+      "answer": 2,
+      "explanation": "Greenhouse gases like CO₂ and water vapor trap heat by absorbing infrared radiation and re-emitting it back toward Earth, keeping the planet warm enough to support life."
+    }
+  ]
+}

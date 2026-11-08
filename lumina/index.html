@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumina — Dawnbloom Quiz Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- The quiz lives inside one card in the center of the page. -->
+  <main class="card">
+    <h1>Lumina</h1>
+    <p class="subtitle">Dawnbloom Isle Quiz Test (K-2)</p>
+
+    <p id="progress">Loading...</p>
+    <h2 id="question">Please wait</h2>
+
+    <!-- Buttons for the choices will be added here by JavaScript. -->
+    <div id="choices"></div>
+
+    <!-- Sage's feedback after an answer. -->
+    <p id="feedback"></p>
+
+    <!-- Hidden until the player answers. -->
+    <button id="next-btn" class="hidden">Next question</button>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

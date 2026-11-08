@@ -1,0 +1,121 @@
+/* Reset the usual spacing so our layout is predictable. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* The whole page: dark blue background, white text, centered content. */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0b1a3a, #1b2a5a);
+  color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* The quiz card. */
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ffd700;
+  letter-spacing: 0.2rem;
+}
+
+.subtitle {
+  opacity: 0.7;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+#progress {
+  opacity: 0.7;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+#question {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* The list of choice buttons. */
+#choices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Each choice button. */
+.choice {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid transparent;
+  color: inherit;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-align: left;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: background 0.2s;
+}
+
+.choice:hover:not(:disabled) {
+  background: rgba(255, 215, 0, 0.2);
+}
+
+.choice:disabled {
+  cursor: default;
+}
+
+/* Highlight the right and wrong choices after the player answers. */
+.choice.correct {
+  background: rgba(60, 200, 100, 0.3);
+  border-color: #3cc864;
+}
+
+.choice.wrong {
+  background: rgba(220, 70, 70, 0.3);
+  border-color: #dc4646;
+}
+
+/* Sage's feedback line under the choices. */
+#feedback {
+  margin-top: 1rem;
+  min-height: 1.5rem;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+/* The Next button. */
+#next-btn {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #ffd700;
+  color: #0b1a3a;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#next-btn:hover {
+  transform: scale(1.03);
+}
+
+/* Simple way to hide an element. */
+.hidden {
+  display: none;
+}
