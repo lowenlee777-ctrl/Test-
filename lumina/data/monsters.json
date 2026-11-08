@@ -1,0 +1,29 @@
+{
+  "dawnbloom": [
+    {
+      "id": "wiltling",
+      "name": "Wiltling",
+      "rank": "F",
+      "description": "A droopy sunflower sprite with sad eyes."
+    },
+    {
+      "id": "dusklet",
+      "name": "Dusklet",
+      "rank": "E",
+      "description": "A dimmed firefly trapped in a cracked jar."
+    },
+    {
+      "id": "thornling",
+      "name": "Thornling",
+      "rank": "D",
+      "description": "A thorny vine imp with glowing red berries."
+    },
+    {
+      "id": "rotbloom",
+      "name": "Rotbloom",
+      "rank": "C",
+      "description": "A hulking withered tree with roots like tentacles.",
+      "isBoss": true
+    }
+  ]
+}

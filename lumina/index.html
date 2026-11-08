@@ -3,26 +3,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lumina — Dawnbloom Quiz Test</title>
+  <title>Lumina — Dawnbloom Isle</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- The quiz lives inside one card in the center of the page. -->
   <main class="card">
     <h1>Lumina</h1>
-    <p class="subtitle">Dawnbloom Isle Quiz Test (K-2)</p>
 
-    <p id="progress">Loading...</p>
-    <h2 id="question">Please wait</h2>
+    <!-- Monster display -->
+    <div id="monster-box">
+      <span id="monster-rank" class="rank-badge">?</span>
+      <h2 id="monster-name">Loading...</h2>
+      <p id="monster-desc"></p>
+    </div>
 
-    <!-- Buttons for the choices will be added here by JavaScript. -->
-    <div id="choices"></div>
+    <!-- Attempt tracker: 5 dots + correct count -->
+    <div id="attempt-tracker">
+      <span class="tracker-label">Chances:</span>
+      <div id="attempt-dots"></div>
+      <span id="correct-count">0 / 3 correct</span>
+    </div>
 
-    <!-- Sage's feedback after an answer. -->
-    <p id="feedback"></p>
+    <!-- Quiz area -->
+    <div id="quiz-area">
+      <p id="progress">Question 1 of 5</p>
+      <h2 id="question">Please wait</h2>
+      <div id="choices"></div>
+      <p id="feedback"></p>
+      <button id="next-btn" class="hidden">Next</button>
+    </div>
 
-    <!-- Hidden until the player answers. -->
-    <button id="next-btn" class="hidden">Next question</button>
+    <!-- Result screen (hidden until battle ends) -->
+    <div id="result-screen" class="hidden">
+      <div id="result-icon"></div>
+      <h2 id="result-title"></h2>
+      <p id="result-message"></p>
+      <button id="retry-btn">Try Again</button>
+    </div>
   </main>
 
   <script src="js/main.js"></script>

@@ -71,12 +71,18 @@ lumina/
 ### In Progress
 - Nothing active. Waiting for the next instruction.
 
+### Done (continued)
+- Core battle mechanic implemented: **5 chances, 3 correct = monster purified**.
+  - Random monster picked from `monsters.json` (Wiltling / Dusklet / Thornling / Rotbloom).
+  - 5 random questions drawn from the Dawnbloom pool each battle.
+  - 5 attempt-dot tracker (green = correct, red = wrong).
+  - Win fires as soon as the 3rd correct answer lands; lose fires after all 5 are used.
+  - Result screen with "Try Again" to start a fresh battle.
+
 ### Next Up (from Version 1 / MVP in GAME_DESIGN.md)
-- Write 30 Dawnbloom questions in `questions.json` (every answer checked for correctness).
-- Build the quiz engine (show a question, check the answer, show Sage's explanation on a wrong answer).
-- Build the battle screen (HP bars, turn order, damage calculation).
-- Add EXP and leveling.
+- Add EXP and leveling (player.js).
 - Add saving with `localStorage`.
 - Write Sage's tutorial dialogue for Dawnbloom.
+- Build a proper island map / title screen flow.
 
 > **Update this section every time we finish something.**
