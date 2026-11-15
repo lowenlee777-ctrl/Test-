@@ -3,45 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lumina — Dawnbloom Isle</title>
+  <title>LAST SIGNAL</title>
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Phaser 3 game framework (pinned version, loaded from a CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.min.js"></script>
 </head>
 <body>
-  <main class="card">
-    <h1>Lumina</h1>
+  <!-- Phaser draws the game canvas inside this box -->
+  <div id="game"></div>
 
-    <!-- Monster display -->
-    <div id="monster-box">
-      <span id="monster-rank" class="rank-badge">?</span>
-      <h2 id="monster-name">Loading...</h2>
-      <p id="monster-desc"></p>
-    </div>
-
-    <!-- Attempt tracker: 5 dots + correct count -->
-    <div id="attempt-tracker">
-      <span class="tracker-label">Chances:</span>
-      <div id="attempt-dots"></div>
-      <span id="correct-count">0 / 3 correct</span>
-    </div>
-
-    <!-- Quiz area -->
-    <div id="quiz-area">
-      <p id="progress">Question 1 of 5</p>
-      <h2 id="question">Please wait</h2>
-      <div id="choices"></div>
-      <p id="feedback"></p>
-      <button id="next-btn" class="hidden">Next</button>
-    </div>
-
-    <!-- Result screen (hidden until battle ends) -->
-    <div id="result-screen" class="hidden">
-      <div id="result-icon"></div>
-      <h2 id="result-title"></h2>
-      <p id="result-message"></p>
-      <button id="retry-btn">Try Again</button>
-    </div>
-  </main>
-
-  <script src="js/main.js"></script>
+  <!-- Our game code. type="module" lets files use import/export. -->
+  <script type="module" src="js/game.js"></script>
 </body>
 </html>
